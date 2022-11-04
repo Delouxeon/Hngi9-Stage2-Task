@@ -1,0 +1,61 @@
+
+
+hr {
+  color: #EAECF0;
+  margin: 0 1rem;
+  border: 1px solid;
+}
+
+
+footer {
+  font-weight: 400;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.footer-text {
+  font-size: .8rem;
+  color: #667085;
+}
+
+.zuri-internship,
+.I4G {
+  width: 130px;
+}
+
+
+
+@media (min-width: 425px) {
+
+  footer {
+    margin: 2rem 7vw;
+    
+  }
+
+  hr{
+    margin: 0 7vw;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-text {
+    font-size: .9rem;
+    text-align: center;
+  }
+  
+  
+  .zuri-internship,
+  .I4G {
+    width: 150px;
+  }
+
+}
+
+
+
