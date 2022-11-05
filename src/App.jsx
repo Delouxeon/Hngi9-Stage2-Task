@@ -11,7 +11,13 @@ import Home from "./Indexpage/index"
 function App() {
   return (
     <div>
-        <Home />
+        <Routes> 
+          <Route exact path="/" element={<Home />} />
+  
+          <Route path="/contact" element={<Contact/>} />
+  
+          {/* <Navigate to="/" /> */}
+        </Routes>
     </div>
   );
 }
