@@ -132,6 +132,12 @@ button{
         max-width: 600px;
         grid-template-columns: 1fr 1fr;
     }
+    
+    .email-div, .message-div, .checkbox-div, .submit-div{
+        grid-column: span 1/-1
+    }
+
+
 
 
 
