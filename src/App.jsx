@@ -3,7 +3,7 @@ import './App.css';
 import {Navigate, Routes} from "react-router-dom";
 import {Route} from "react-router-dom";
 
-
+import Contact from './contactpage/contact';
 import Home from "./Indexpage/index"
 
 
