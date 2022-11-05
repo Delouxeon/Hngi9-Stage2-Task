@@ -140,7 +140,7 @@ button:disabled{
 }
 
 .checkbox-replacement:hover{
-    border:;
+    border:#175CD3;
     box-shadow:;
     color:;
     background:;
@@ -149,7 +149,7 @@ button:disabled{
 .checkbox-replacement:focus{
     border:;
 
-    box-shadow:;
+    box-shadow:0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
 
     color:;
 
@@ -166,7 +166,7 @@ button:disabled{
     border:;
     box-shadow:;
     color:;
-    background:;
+    background:#D0D5DD;
 }
 
 
