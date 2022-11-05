@@ -114,10 +114,11 @@ button{
 }
 
 [type=checkbox]:checked + .checkbox-replacement:before {
-    content: '/src/assets/check-icon.svg';
+    content: '/f00c';
     position: absolute;
-    top: -5px;
+    top: -8px;
     left: 0;
+    color:#1570EF
 }
 
 @media (min-width: 425px) {
