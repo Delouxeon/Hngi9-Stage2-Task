@@ -21,9 +21,12 @@ return(
             <label htmlFor="message">Message</label><br />
             <textarea required name="message" id="message" placeholder="Send me a message and I'll reply you as soon as possible..." cols="30" rows="10"></textarea>
         </div>
-        <div className="form-grid-item">
-            <input id="agreement" className="checkbox-input" type={"checkbox"}></input>
-            <label className="agreement-label" htmlFor="agreement"> &nbsp; You agree to provide your data to Doen who may contact you</label>
+        <div className="form-grid-item checkbox-div">
+            <label className="agreement-label" htmlFor="agreement">
+                <input id="agreement" className="checkbox-input" type={"checkbox"}></input>
+                <span className="checkbox-replacement"></span>
+                 &nbsp; You agree to provide your data to Doen who may contact you
+            </label>
         </div>
         <div className="form-grid-item">
             <button id="btn__submit" type="submit" >Send message</button>
