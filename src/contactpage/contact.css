@@ -133,7 +133,7 @@ button:disabled{
 [type=checkbox]:checked + .checkbox-replacement:before {
     content: '\f00c';
     position: absolute;
-    top: -11px;
+    top: 0;
     left: 3px;
     color:#1570EF
 
