@@ -11,7 +11,7 @@ import Home from "./Indexpage/index"
 function App() {
   return (
     <div>
-        <Routes> 
+        <Routes history = {hashHistory} > 
           <Route exact path="/" element={<Home />} />
   
           <Route path="/contact" element={<Contact/>} />
