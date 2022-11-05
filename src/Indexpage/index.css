@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+body,
+a {
+    color: #101828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+
+.top-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url("./assets/more-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin-top: 2rem;
+    margin-left: 68%;
+    display: block;
+
+}
+
+a.top-icon :hover {
+    background-image: url("./assets/more-icon-pressed.svg");
+}
+
+.top-icon :focus {
+    background-image: url("./assets/more-icon-focus.svg");
+    ;
+}
+
+.top-icon :disabled {
+    background-image: url("./assets/more-icon-disabled.svg");
+    ;
+}
+
+
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile-picture-frame {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-picture-frame:focus {
+    opacity: 1;
+}
+
+.Doen {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .3s ease;
+    background-color: rgba(41, 41, 46, 0.5)
+}
+
+.profile-picture-frame:hover .profile-overlay {
+    opacity: 1;
+}
+
+.camera-icon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.camera {
+    position: absolute;
+    left: 38%;
+    top: 65%;
+    transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+}
+
+
+.twitter-username,
+.slack-username {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: .8rem;
+
+}
+
+.slack-username {
+    display: none;
+}
+
+
+
+.link_section {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    gap: 1rem;
+    margin: 2rem 1rem;
+
+
+}
+
+.link-section-anchor {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: .95rem;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: .4rem;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem .2rem;
+    margin: 0 auto;
+
+}
+
+.link-section-anchor :focus {
+    /* outline: none; */
+    background: #EAECF0;
+    border: 1px solid #98A2B3;
+}
+
+.link-section-anchor:hover {
+    background: #D0D5DD;
+    border: 1px solid #D0D5DD;
+}
+
+.link-section-anchor:disabled {
+    background: #FCFCFD;
+    border: 1px solid #F2F4F7;
+}
+
+span {
+    font-weight: 500;
+    font-size: .7rem;
+    margin-top: 5px;
+}
+
+
+
+
+
+.slack-and-git-icon {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+}
+
+.slack-icon,
+.github-icon {
+    width: 40px;
+}
+
+.slack-icon {
+    margin-right: 1.5rem;
+}
+
+
+
+
+hr {
+    color: #EAECF0;
+    margin: 0 1rem;
+    border: 1px solid;
+}
+
+
+
+
+@media (min-width:375px) {
+    .top-icon {
+        background-image: url("./assets/share-icon.svg");
+    }
+
+    .top-icon :hover {
+        background-image: url("./assets/share-icon-hover.svg");
+        ;
+    }
+
+    .top-icon :focus {
+        background-image: url("./assets/share-icon-focus.svg");
+        ;
+    }
+
+    .top-icon :disabled {
+        background-image: url("./assets/share-icon-disabled.svg");
+        ;
+    }
+}
+
+@media (min-width: 425px) {
+    .link_section {
+        width: 90%;
+        max-width: 800px;
+        margin: 2rem auto;
+
+    }
+
+    hr {
+        margin: 0 7vw;
+    }
+
+    .twitter-username,
+    .slack-username {
+        font-size: 22px;
+    }
+
+    .link-section-anchor {
+        font-size: 1rem;
+    }
+
+    .slack-and-git-icon {
+        margin-bottom: 4rem;
+    }
+
+}
