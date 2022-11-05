@@ -1,0 +1,37 @@
+
+
+const FormSection = () => {
+
+return(
+  <div className="form-container">
+    <form id = "Contact-Form" >
+        <div className="form-grid-item">
+            <label htmlFor="first_name">First name</label> <br />
+            <input id = "first_name" type={"text"} placeholder ="Enter your first name" required></input>
+        </div>
+        <div className="form-grid-item">
+            <label htmlFor="last_name">Last name</label><br />
+            <input id = "last_name" type={"text"} placeholder ="Enter your last name" required></input>
+        </div>
+        <div className="form-grid-item">
+            <label htmlFor="email">Email</label><br />
+            <input id = "email" type={"email"} placeholder ="yourname@gmail.com" required></input>
+        </div>
+        <div className="form-grid-item">
+            <label htmlFor="message">Message</label><br />
+            <textarea required name="message" id="message" placeholder="Send me a message and I'll reply you as soon as possible..." cols="30" rows="10"></textarea>
+        </div>
+        <div className="form-grid-item">
+            <input id="agreement" className="checkbox-input" type={"checkbox"}></input>
+            <label className="agreement-label" htmlFor="agreement"> &nbsp; You agree to provide your data to Doen who may contact you</label>
+        </div>
+        <div className="form-grid-item">
+            <button id="btn__submit" type="submit" >Send message</button>
+        </div>
+    </form>
+  </div>
+);
+
+}
+
+export default FormSection;
