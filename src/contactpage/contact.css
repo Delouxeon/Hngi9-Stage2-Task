@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*, input{
+    margin: 0;
+    padding: 0
+}
+
+
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+
+}
+
+.ContactPage-header {
+    margin: 3rem 1rem 2.5rem 1rem;
+}
+
+.form-container{
+    margin: 0 1rem 4.5rem 1rem;
+    
+}
+
+form{
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: repeat(6 1fr);
+
+}
+.form-grid-item{
+    width: 90%;
+    text-align: left;
+
+}
+
+.contactMe-header{
+    color: #101828;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .7rem;
+}
+
+.header-message{
+    color: #475467;
+    font-size: .85rem;
+}
+
+label{
+    color: #344054;
+    font-size: .75rem;
+    font-weight:600;
+}
+
+.agreement-label{
+    color: #475467;
+    font-weight: 400;
+}
+
+::placeholder{
+    color: #667085;
+    
+}
+
+input,textarea{
+    color: #101828;
+    border: 1px solid #D0D5DD;
+}
+
+input, textarea, button{
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+button{
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    width: 100%;
+    color: white;
+}
+
+.checkbox-input{
+
+}

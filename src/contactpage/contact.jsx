@@ -8,7 +8,7 @@ function Contact() {
 
   return (
     <div>
-      <ContactHeader />  
+      <ContactHeader />
       <Footer />
     </div>
   );

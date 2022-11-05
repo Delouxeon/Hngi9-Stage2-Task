@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Links = () => {
 
@@ -32,6 +33,8 @@ return(
         Design Books <br />
         <span>Get the Hng Design Rules book, it's free! </span>
     </a>
+    {}
+    <Link to="/contact" className="link-section-anchor" id="contact">Contact Me</Link>
   </section>
 );
 
