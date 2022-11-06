@@ -25,7 +25,7 @@ return(
             <label className="agreement-label" htmlFor="agreement">
                 <input required id="agreement" className="checkbox-input" type={"checkbox"}></input>
                 <span className="checkbox-replacement"></span>
-                 &nbsp; You agree to provide your data to Doen who may contact you
+                 &nbsp; You agree to provide your data to Divine Nwabuife who may contact you
             </label>
         </div>
         <div className="form-grid-item submit-div">
