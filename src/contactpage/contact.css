@@ -111,7 +111,6 @@ button:disabled{
 }
 
 
-
 .checkbox-div {
     /* border: 1px solid #D0D5DD; */
 }
@@ -141,34 +140,15 @@ button:disabled{
 
 .checkbox-replacement:hover{
     border:1px solid #175CD3;
-    box-shadow:;
-    color:;
-    background:;
 }
 
 .checkbox-replacement:focus{
-    border:;
-
     box-shadow:0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
-
-    color:;
-
-    background:;
 }
-  
-
  
-
-
-
-
 .checkbox-replacement:disabled{
-    border:;
-    box-shadow:;
-    color:;
     background:#D0D5DD;
 }
-
 
 
 @media (min-width: 425px) {
@@ -185,7 +165,7 @@ button:disabled{
     }
     
     .email-div, .message-div, .checkbox-div, .submit-div{
-        grid-column: span 2
+        grid-column: span 2;
     }
 
 
