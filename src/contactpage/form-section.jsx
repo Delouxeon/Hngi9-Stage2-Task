@@ -7,19 +7,19 @@ return(
     <form id = "Contact-Form" >
         <div className="form-grid-item">
             <label htmlFor="first_name">First name</label> <br />
-            <input id = "first_name" type={"text"} placeholder ="Enter your first name" required></input>
+            <input id = "first_name" className="first-name" type={"text"} placeholder ="Enter your first name" required></input>
         </div>
         <div className="form-grid-item">
             <label htmlFor="last_name">Last name</label><br />
-            <input id = "last_name" type={"text"} placeholder ="Enter your last name" required></input>
+            <input id = "last_name" className="last-name" type={"text"} placeholder ="Enter your last name" required></input>
         </div>
         <div className="form-grid-item email-div">
             <label htmlFor="email">Email</label><br />
-            <input id = "email" type={"email"} placeholder ="yourname@gmail.com" required></input>
+            <input id = "email" className="email" type={"email"} placeholder ="yourname@gmail.com" required></input>
         </div>
         <div className="form-grid-item message-div">
             <label htmlFor="message">Message</label><br />
-            <textarea required name="message" id="message" placeholder="Send me a message and I'll reply you as soon as possible..." cols="30" rows="10"></textarea>
+            <textarea required name="message" id="message" className="Message" placeholder="Send me a message and I'll reply you as soon as possible..." cols="30" rows="10"></textarea>
         </div>
         <div className="form-grid-item checkbox-div">
             <label className="agreement-label" htmlFor="agreement">
