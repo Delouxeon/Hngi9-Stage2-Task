@@ -23,7 +23,7 @@ return(
         </div>
         <div className="form-grid-item checkbox-div">
             <label className="agreement-label" htmlFor="agreement">
-                <input id="agreement" className="checkbox-input" type={"checkbox"}></input>
+                <input required id="agreement" className="checkbox-input" type={"checkbox"}></input>
                 <span className="checkbox-replacement"></span>
                  &nbsp; You agree to provide your data to Doen who may contact you
             </label>
