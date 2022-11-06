@@ -19,7 +19,7 @@ return(
         </div>
         <div className="form-grid-item message-div">
             <label htmlFor="message">Message</label><br />
-            <textarea required name="message" id="message" className="Message" placeholder="Send me a message and I'll reply you as soon as possible..." cols="30" rows="10"></textarea>
+            <textarea required name="message" id="message" className="message" placeholder="Send me a message and I'll reply you as soon as possible..." cols="30" rows="10"></textarea>
         </div>
         <div className="form-grid-item checkbox-div">
             <label className="agreement-label" htmlFor="agreement">
