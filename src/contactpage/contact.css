@@ -33,7 +33,7 @@ form{
     margin: 0 1rem 4.5rem 1rem;
     display: grid;
     grid-template-rows: repeat(6 1fr);
-    gap: .6rem;{}
+    gap: .6rem;
     width:100%
 
 }
